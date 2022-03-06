@@ -1,0 +1,88 @@
+.SU-body {
+	color: #fff;
+	background: #63738a;
+	height: 120%;
+}
+.form-control {
+	/* height: 40px; */
+	box-shadow: none;
+	color: #969fa4;
+}
+.form-control:focus {
+	border-color: #5cb85c;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.SU-signup-form {
+	width: 450px;
+	margin: 0 auto;
+	padding: 30px 0;
+  	font-size: 15px;
+}
+.SU-signup-form h2 {
+	color: #636363;
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+.SU-signup-form h2:before, .SU-signup-form h2:after {
+	content: "";
+	height: 2px;
+	width: 30%;
+	background: #d4d4d4;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}	
+.SU-signup-form h2:before {
+	left: 0;
+}
+.SU-signup-form h2:after {
+	right: 0;
+}
+.SU-signup-form .SU-hint-text {
+	color: #999;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.SU-signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #f2f3f7;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.SU-3);
+	padding: 30px;
+}
+.SU-signup-form .SU-form-group {
+	margin-bottom: 20px;
+}
+.SU-signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.SU-signup-form .SU-btn {        
+	font-size: 16px;
+	font-weight: bold;		
+	min-width: 140px;
+	outline: none !important;
+}
+.SU-signup-form .SU-row div:first-child {
+	padding-right: 10px;
+}
+.SU-signup-form .SU-row div:last-child {
+	padding-left: 10px;
+}    	
+.SU-signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.SU-signup-form a:hover {
+	text-decoration: none;
+}
+.SU-signup-form form a {
+	color: #5cb85c;
+	text-decoration: none;
+}	
+.SU-signup-form form a:hover {
+	text-decoration: underline;
+}  

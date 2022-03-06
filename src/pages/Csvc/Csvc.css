@@ -1,0 +1,87 @@
+.CSVC-bigestdiv{
+    padding: 0 70px 70px 70px;
+}
+
+.CSVC-card-bigdiv{
+    
+}
+
+.CSVC-card-div{
+    border: solid 2px black;
+}
+
+.CSVC-form-div{
+    padding: 50px 200px 50px 0px;
+
+}
+
+.CSVC-formbutton{
+    
+}
+
+.CSVC-card{
+    max-height: 225px;
+    
+}
+
+.CSVC-card-img-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.CSVC-img-input{
+    position: absolute;
+    width: 200px;
+}
+
+.CSVC-img{
+    object-fit: cover;
+    max-height: 200px;
+    max-width: 225px;
+}
+
+.CSVC-card-table-bigdiv{
+    /* display: flex;
+    align-items: center; */
+}
+
+.CSVC-card-table-div{
+    width: 100%;
+}
+
+.CSVC-card-table{
+    line-height: 30px;
+    margin: 0px 0 0 0;
+}
+
+.textnhieu{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    max-width: 300px;
+}
+
+.CSVC-card-2nutbam{
+    width: 100%;
+}
+
+.CSVC-2nutbam{
+    width: 100%;
+    height: 100%;
+}
+
+.CSVC-button{
+    width: 50%;
+    font-size: 30px;
+}
+
+.CSVC-button-add{
+    font-size: 50px;
+}
+
+.modal-lg{
+    max-width: 900px;
+}

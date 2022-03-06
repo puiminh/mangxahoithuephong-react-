@@ -1,0 +1,120 @@
+.sign-bigestdiv{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: #076585; /* fallback for old browsers */
+ 	background: -webkit-linear-gradient(to right, #076585, #fff); /* Chrome 10-25, Safari 5.1-6 */
+  	background: linear-gradient(to right, #076585, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.sign-main{
+	width: 350px;
+	height: 500px;
+	background: red;
+	overflow: hidden;
+	background: #076585;
+	background: -webkit-linear-gradient(to bottom, #076585, #fff); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #076585, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+.sign-label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+
+.sign-label-admin{
+	color: #076585;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px 60px 30px 60px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+
+.sign-input{
+	width: 60%;
+	height: 35px;
+	justify-content: center;
+	display: flex;
+	margin: 15px auto;
+	padding: 15px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+
+}
+
+
+
+.sign-button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #076585;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 15px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+.sign-button:hover{
+	background: #087ca3;
+}
+.sign-admin{
+	height: 460px;
+	
+	background: #076585;
+	background: -webkit-linear-gradient(to top, #076585, #fff); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #076585, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+	box-shadow: 5px 20px 50px #000;
+}
+.sign-admin label{
+	transform: scale(.6);
+}
+
+
+
+#chk:checked ~ .sign-admin{
+	transform: translateY(-500px);
+	box-shadow: none;
+}
+#chk:checked ~ .sign-admin label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+
+.sign-falselogin{
+	text-align: center;
+}

@@ -1,0 +1,36 @@
+.client-navbar{
+    box-shadow: 0px 0px 1px gray;
+    background-color: white;
+}
+
+.navclient-logo{
+    width: 35px;
+    height: 35px;
+}
+
+.navclient-avatar{
+    width: 30px;
+    border-radius: 100%;
+}
+
+.NBcl-icon-div:hover{
+    background-color: #4E4F50;
+}
+
+.NBcl-icon-div{
+    border-radius: 100px;
+    /* background-color: #3A3B3C; */
+    cursor: pointer;
+    margin: 0px 5px 0px 5px;
+}
+.NBcl-icon-div:active{
+    background-color: #3A3B3C;
+    
+
+}
+
+.input-img{
+    position: absolute;
+    width: 300px;
+    top: 150px;
+}

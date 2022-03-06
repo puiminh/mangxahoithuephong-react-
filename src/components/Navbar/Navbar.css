@@ -1,0 +1,158 @@
+.NB-navdiv{
+    background-color: #1C1E21!important;
+    padding: 2px 0px 2px 0px;
+}
+.NB-smallnavdiv{
+    padding: 0px;
+    margin-right: 30px;
+}
+
+.NB-2icon-div{
+    display: block;
+    min-height: 60px;
+}
+
+.NB-nav-liitem{
+    position: relative;
+    margin: 5px 25px 0 25px;
+    border-bottom: 2px solid #1C1E21;
+}
+
+.NB-nav-liitem:hover{
+    border-bottom: 2px solid #2374E1;
+}
+
+.NB-nav-liitem:hover .SN-nav-homeicon,
+.NB-nav-liitem:hover .SN-nav-toolicon{
+    color: #2374E1;
+}
+
+.blueline{
+    background-color: #2374E1;
+    height: 2px;
+}
+
+.SN-nav-homeicon{
+    font-size: 23px;
+    padding: 2px;
+    color: #B0B3B8;
+}
+
+.SN-nav-toolicon{
+    font-size: 21px;
+    padding: 2px;
+    color: #B0B3B8;
+}
+
+.NB-info-div-div{
+    width: 250px;
+}
+
+.NB-info-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 14px;
+}
+.NB-info-name{
+    color: #E4E6EB;
+}
+
+.NB-info-smalldiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 100px;
+    
+    width: 170px;
+}
+
+.NB-tennvh{
+    position:absolute;
+    left: 40px;
+    width: 150px;
+}
+
+.NB-info-smalldiv:hover{
+    background-color: #3A3B3C;
+}
+
+.NBcl-info-smalldiv:hover{
+    background-color: #f8f9fa;
+}
+
+.NB-avatarimg{
+    margin-right: 130px;
+    object-fit: cover;
+    border: solid 2px #E4E6EB;
+}
+
+
+
+.NB-info-dropdownbtn{
+    padding: 5px;
+    color: #E4E6EB;
+    font-size: 13px;
+}
+
+.NB-info-dropdownbtn:hover{
+    color: #E4E6EB;
+}
+
+.NB-info-dropmenu{
+    left: -35px;
+
+}
+
+.NB-icon-dropdownbtn{
+    padding: 0px;
+}
+
+.NB-bell-dropmenu{
+    left: -400px;
+}
+
+.NB-icon-div:hover{
+    background-color: #4E4F50;
+}
+
+.NB-icon-div{
+    border-radius: 100px;
+    background-color: #3A3B3C;
+    cursor: pointer;
+    margin: 0px 5px 0px 5px;
+}
+.NB-icon-div:active{
+    background-color: #3A3B3C;
+    
+
+}
+
+
+.BN-bell-div{
+    position: relative;
+}
+
+.BN-nocicon{
+    position:absolute;
+    background-color: #E73553;
+    top: 20px;
+    left: 20px;
+    padding: 3px 6px 3px 6px;
+}
+
+.NB-exiticon{
+    color: #E4E6EB;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.marginbottom-6px{
+    margin-bottom: 6px;
+}
+
+.input-no-border{
+    border: none;
+}

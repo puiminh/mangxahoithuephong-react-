@@ -1,0 +1,259 @@
+.home-admin-sl-bigdiv{
+
+}
+
+.home-admin-sl-imgdiv{
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-admin-sl-img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.home-admin-tittle-span{
+    font-family: 'Anton', sans-serif;
+}
+
+.home-admin-card-bigdiv{
+    margin-top: 20px;
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(1, 1, 1, 0.5)), url("./background.png");
+    color: white;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.home-admin-card-subbigdiv{
+    padding: 80px;
+}
+
+.home-admin-card-text{
+    padding-left: 100px;
+    padding-top: 50px;
+    min-height: 500px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.home-admin-card-roundimgdiv{
+    position: relative;
+}
+
+.home-admin-card-roundimg{
+    position: absolute;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+    object-fit: cover;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40vw;
+    width: 40vw;
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .home-admin-card-subbigdiv{
+        padding: 10px;
+    }
+
+    .home-admin-card-text{
+        padding-left: 10px;
+        padding-top: 10px;
+        min-height: 500px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .home-admin-card-roundimgdiv{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .home-admin-card-roundimg {
+      position: relative;
+      margin: 0 auto;
+    }
+  }
+  
+
+.home-admin-titlecsvc-div{
+    text-align: center;
+    margin: 24px;
+}
+
+.home-admin-titlecsvc{
+    font-weight: 400;
+}
+
+.home-admin-ggmap-div{
+    display: flex;
+    justify-content: center;
+}
+
+.home-admin-table-div{
+    padding: 0 10px 10px 0;
+}
+
+.home-admin-table{
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.home-admin-card-deck-div{
+    padding: 20px;
+    overflow: hidden;
+    -webkit-transition: box-shadow 0.5s;
+    transition: box-shadow 0.5s;
+    
+}
+
+.home-admin-card-smalldiv{
+    padding: 0;
+    margin: 15px;
+    min-height: 400px;
+}
+
+.home-admin-card-cardheader{
+    height: 245px;
+    overflow: hidden;
+    background-color: #000;
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+.home-admin-card-deck-img{
+    max-height: 245px;
+    min-height: 245px;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, transform 0.5s;
+    transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+    
+}
+
+.home-admin-card-cardbody{
+    position: relative;
+    height: 150px;
+    padding: 20px;
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+.home-admin-card-cardtitle{
+    margin: 0;
+    padding: 0 0 10px 0;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.home-admin-card-carddes{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    line-height: 27px;
+    opacity: 0;
+    -webkit-transform: translateY(45px);
+    transform: translateY(45px);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+
+.home-admin-card-smalldiv:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.home-admin-card-smalldiv:hover .home-admin-card-deck-img{
+   
+    opacity: 0.6;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    
+}
+
+.home-admin-card-smalldiv:hover .home-admin-card-cardheader{
+    height: 200px;
+}
+
+
+.home-admin-card-smalldiv:hover .home-admin-card-cardbody{
+    height: 170px;
+    overflow: hidden;
+}
+
+.home-admin-card-smalldiv:hover .home-admin-card-carddes{
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.home-admin-bookbutton-div{   
+    display: flex;
+    justify-content: center;
+}
+.home-admin-bookbutton{
+    background: none;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 250px;
+    min-height: 80px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    font-size: 25px;
+}
+.home-admin-bookbutton:hover{
+    color: #ddd;
+}
+.home-admin-bookbutton::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.home-admin-bookbutton::before{
+    transform: scaleX(0);
+}
+.home-admin-bookbutton:hover::before{
+    transform: scaleX(1);
+}
+
+
+
