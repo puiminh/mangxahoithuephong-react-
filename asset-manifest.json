@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/mangxahoithuephong-react-/static/css/main.57b0f222.css",
+    "main.js": "/mangxahoithuephong-react-/static/js/main.a30ef50f.js",
+    "static/js/787.db9b214f.chunk.js": "/mangxahoithuephong-react-/static/js/787.db9b214f.chunk.js",
+    "static/media/background.png": "/mangxahoithuephong-react-/static/media/background.81a85735eb88798dff89.png",
+    "static/media/booking-background.jpg": "/mangxahoithuephong-react-/static/media/booking-background.96008d83a03034ffef24.jpg",
+    "static/media/logo.svg": "/mangxahoithuephong-react-/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/mangxahoithuephong-react-/index.html",
+    "main.57b0f222.css.map": "/mangxahoithuephong-react-/static/css/main.57b0f222.css.map",
+    "main.a30ef50f.js.map": "/mangxahoithuephong-react-/static/js/main.a30ef50f.js.map",
+    "787.db9b214f.chunk.js.map": "/mangxahoithuephong-react-/static/js/787.db9b214f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57b0f222.css",
+    "static/js/main.a30ef50f.js"
+  ]
+}
